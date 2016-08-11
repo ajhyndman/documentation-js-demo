@@ -1,10 +1,4 @@
 /**
- * This is our project's entry point module.
- *
- * @module main
- */
-
-/**
  * Return a number multiplied by two.
  * @memberof main
  * @param a A number to be doubled
@@ -26,6 +20,11 @@ function triple (a: number): number {
   return a * 3;
 }
 
+/**
+ * This is our project's entry point module.
+ *
+ * @module main
+ */
 export default {
   double,
   triple
