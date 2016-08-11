@@ -15,4 +15,18 @@ function double (a: number): number {
   return a * 2;
 }
 
-export default double;
+/**
+ * Return a number multiplied by two.
+ * @memberof main
+ * @param a A number to be tripled
+ * @returns The input number, tripled
+ */
+function triple (a: number): number {
+  // Do some stuff
+  return a * 3;
+}
+
+export default {
+  double,
+  triple
+};
