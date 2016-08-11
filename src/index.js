@@ -4,7 +4,7 @@
  * @param a A number to be doubled
  * @returns The input number, doubled
  */
-export function double (a: number): number {
+function double (a: number): number {
   // Do some stuff
   return a * 2;
 }
@@ -15,7 +15,7 @@ export function double (a: number): number {
  * @param a A number to be tripled
  * @returns The input number, tripled
  */
-export function triple (a: number): number {
+function triple (a: number): number {
   // Do some stuff
   return a * 3;
 }
@@ -25,6 +25,7 @@ export function triple (a: number): number {
  *
  * @module main
  */
+export { double, triple };
 export default {
   double,
   triple
