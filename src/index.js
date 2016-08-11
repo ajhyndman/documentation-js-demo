@@ -1,6 +1,5 @@
 /**
  * Return a number multiplied by two.
- * @memberof main
  * @param a A number to be doubled
  * @returns The input number, doubled
  */
@@ -11,7 +10,6 @@ function double (a: number): number {
 
 /**
  * Return a number multiplied by two.
- * @memberof main
  * @param a A number to be tripled
  * @returns The input number, tripled
  */
